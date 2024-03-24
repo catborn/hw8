@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VR</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header__span {
+      font-size: 2em;
+    }
+
+    .header__button {
+      border-radius: 20px;
+      border: 0;
+      background-color: blueviolet;
+      color: white;
+    }
+
+    .main {
+      display: flex;
+      height: 80%;
+    }
+
+    .main__text {
+      font-size: larger;
+    }
+
+    .main__button {
+      border-radius: 30px;
+      border: 0;
+      background-color: blueviolet;
+      color: white;
+      font-size: 4em;
+    }
+
+    .footer {
+      display: flex;
+      align-items: flex-end;
+      gap: 3em;
+    }
+
+    .footer__item {
+      color: blueviolet;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+
+    <span class="header__span">
+      <img src="./assets/sign.svg" alt="">ВИАРУШКА</span>
+    <button class="header__button">Корзина</button>
+  </header>
+
+  <main class="main">
+    <div>
+      <h1>ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ БЕЗ ПРОВОДОВ</h1>
+      <p class="main__text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов
+        и дорогих
+        комьютеров.
+      </p>
+      <button class="main__button">Купить</button>
+    </div>
+    <img class="main__img" src="./assets/guy.png" alt="">
+  </main>
+
+  <footer class="footer">
+    <span class="footer__item">Возможности</span>
+    <span class="footer__item">Где купить</span>
+    <span class="footer__item">Доставка</span>
+    <span class="footer__item">Доставка</span>
+  </footer>
+
+</body>
+
+</html>
